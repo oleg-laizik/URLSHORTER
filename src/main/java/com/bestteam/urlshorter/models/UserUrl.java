@@ -27,8 +27,6 @@ import java.util.Objects;
 @AllArgsConstructor
 //@Validated
 public class UserUrl implements UserDetails {
-//public class UserChat {
-
 
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Id

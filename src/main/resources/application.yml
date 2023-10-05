@@ -6,6 +6,14 @@ spring:
     url: jdbc:postgresql://localhost:5433/url_shorter_db
     username: postgres
     password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+        default_schema: public
 
 gcp:
   vars:
