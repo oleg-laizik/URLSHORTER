@@ -1,1 +1,29 @@
+server:
+  port: 9999
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/url_shorter_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+        default_schema: public
+
+gcp:
+  vars:
+    admin.user: ${ADMIN_USERNAME:test@gmail.com}
+    admin.password: ${ADMIN_PASSWORD:12345}
+
+application:
+  security:
+    jwt:
+      secret-key: c40d1f7126c036c2346949cae27036ed8048b3c76205a358fd0ea32aed3125c2
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days
