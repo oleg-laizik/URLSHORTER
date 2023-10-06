@@ -1,4 +1,4 @@
-package com.bestteam.urlshorter.config;
+package com.bestteam.urlshorter.auth;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

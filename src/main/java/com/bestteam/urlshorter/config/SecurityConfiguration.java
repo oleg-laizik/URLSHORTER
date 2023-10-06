@@ -1,6 +1,8 @@
 package com.bestteam.urlshorter.config;
 
 
+import com.bestteam.urlshorter.auth.CustomAuthenticationProvider;
+import com.bestteam.urlshorter.auth.JwtAuthenticationFilter;
 import com.bestteam.urlshorter.repository.UserUrlRepository;
 import com.bestteam.urlshorter.service.Impl.UserDetailsServiceImpl;
 import org.springframework.context.annotation.Bean;
@@ -65,16 +67,11 @@ public class SecurityConfiguration {
                 "/swagger-ui/**",
                 "/webjars/**",
                 "/swagger-ui.html",
-                "/users/list"
+                "/users/list",
+                  "/controller"
 
         )
           .permitAll()
-//        .requestMatchers("/api/v1/management/**").hasAnyRole(Role.ADMIN.name(), Role.MANAGER.name())
-//        .requestMatchers(GET, "/api/v1/management/**").hasAnyAuthority(Permission.ADMIN_READ.name(), Permission.MANAGER_READ.name())
-//        .requestMatchers(POST, "/api/v1/management/**").hasAnyAuthority(Permission.ADMIN_CREATE.name(), Permission.MANAGER_CREATE.name())
-//        .requestMatchers(PUT, "/api/v1/management/**").hasAnyAuthority(Permission.ADMIN_UPDATE.name(), Permission.MANAGER_UPDATE.name())
-//        .requestMatchers(DELETE, "/api/v1/management/**").hasAnyAuthority(Permission.ADMIN_DELETE.name(), Permission.MANAGER_DELETE.name())
-
         .anyRequest()
           .authenticated())
 //        .sessionManagement((sessionManagement) ->
