@@ -2,6 +2,7 @@ package com.bestteam.urlshorter.config;
 
 
 
+import com.bestteam.urlshorter.auth.CustomAuthenticationProvider;
 import com.bestteam.urlshorter.repository.UserUrlRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

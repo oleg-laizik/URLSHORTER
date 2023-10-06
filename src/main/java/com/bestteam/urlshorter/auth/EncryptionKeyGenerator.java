@@ -1,4 +1,4 @@
-package com.bestteam.urlshorter.config;
+package com.bestteam.urlshorter.auth;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;

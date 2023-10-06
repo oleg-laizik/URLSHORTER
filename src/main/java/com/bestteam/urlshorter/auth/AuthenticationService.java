@@ -5,8 +5,6 @@ import com.bestteam.urlshorter.auth.token.ConfirmationTokenService;
 import com.bestteam.urlshorter.auth.token.Token;
 import com.bestteam.urlshorter.auth.token.TokenRepository;
 import com.bestteam.urlshorter.auth.token.TokenType;
-import com.bestteam.urlshorter.config.CustomAuthenticationProvider;
-import com.bestteam.urlshorter.config.JwtService;
 import com.bestteam.urlshorter.models.Role;
 import com.bestteam.urlshorter.models.UserUrl;
 import com.bestteam.urlshorter.repository.UserUrlRepository;
