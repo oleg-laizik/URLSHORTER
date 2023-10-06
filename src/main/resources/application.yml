@@ -15,6 +15,7 @@ spring:
 
         default_schema: public
 
+
 gcp:
   vars:
     admin.user: ${ADMIN_USERNAME:test@gmail.com}
