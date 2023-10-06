@@ -1,5 +1,6 @@
-package com.bestteam.urlshorter.auth.token;
+package com.bestteam.urlshorter.repository;
 
+import com.bestteam.urlshorter.service.ConfirmationToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

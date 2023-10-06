@@ -3,7 +3,7 @@ package com.bestteam.urlshorter.auth;
 
 
 
-import com.bestteam.urlshorter.models.Role;
+import com.bestteam.urlshorter.constants.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

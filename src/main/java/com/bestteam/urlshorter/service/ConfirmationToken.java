@@ -1,4 +1,4 @@
-package com.bestteam.urlshorter.auth.token;
+package com.bestteam.urlshorter.service;
 
 
 

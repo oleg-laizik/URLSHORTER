@@ -1,5 +1,6 @@
-package com.bestteam.urlshorter.models;
+package com.bestteam.urlshorter.constants;
 
+import com.bestteam.urlshorter.constants.Permission;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.bestteam.urlshorter.models.Permission.*;
+import static com.bestteam.urlshorter.constants.Permission.*;
 
 
 @RequiredArgsConstructor

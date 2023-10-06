@@ -1,14 +1,13 @@
-package com.bestteam.urlshorter.auth;
+package com.bestteam.urlshorter.service;
 
 
-import com.bestteam.urlshorter.auth.token.ConfirmationTokenService;
-import com.bestteam.urlshorter.auth.token.Token;
-import com.bestteam.urlshorter.auth.token.TokenRepository;
-import com.bestteam.urlshorter.auth.token.TokenType;
-import com.bestteam.urlshorter.models.Role;
+import com.bestteam.urlshorter.auth.*;
+import com.bestteam.urlshorter.models.Token;
+import com.bestteam.urlshorter.repository.TokenRepository;
+import com.bestteam.urlshorter.constants.TokenType;
+import com.bestteam.urlshorter.constants.Role;
 import com.bestteam.urlshorter.models.UserUrl;
 import com.bestteam.urlshorter.repository.UserUrlRepository;
-import com.bestteam.urlshorter.service.Impl.UserDetailsServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

@@ -1,6 +1,6 @@
-package com.bestteam.urlshorter.auth;
+package com.bestteam.urlshorter.service;
 
-import com.bestteam.urlshorter.auth.token.TokenRepository;
+import com.bestteam.urlshorter.repository.TokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

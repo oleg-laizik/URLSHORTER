@@ -1,4 +1,4 @@
-package com.bestteam.urlshorter.auth;
+package com.bestteam.urlshorter.constants;
 
 public enum AuthenticationType {
 	DATABASE, FACEBOOK, GOOGLE, APPLE

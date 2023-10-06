@@ -2,9 +2,8 @@ package com.bestteam.urlshorter.auth;
 
 
 
-import com.bestteam.urlshorter.auth.AuthenticationRequest;
 import com.bestteam.urlshorter.models.UserUrl;
-import com.bestteam.urlshorter.service.Impl.UserDetailsServiceImpl;
+import com.bestteam.urlshorter.service.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

@@ -1,8 +1,8 @@
-package com.bestteam.urlshorter.auth.token;
+package com.bestteam.urlshorter.models;
 
 
 
-import com.bestteam.urlshorter.models.UserUrl;
+import com.bestteam.urlshorter.constants.TokenType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

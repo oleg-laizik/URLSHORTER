@@ -1,5 +1,7 @@
-package com.bestteam.urlshorter.auth.token;
+package com.bestteam.urlshorter.service;
 
+import com.bestteam.urlshorter.repository.ConfirmationTokenRepository;
+import com.bestteam.urlshorter.service.ConfirmationToken;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

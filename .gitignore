@@ -15,9 +15,7 @@ HELP.md
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-/.idea/
+.idea/
 *.iws
 *.iml
 *.ipr

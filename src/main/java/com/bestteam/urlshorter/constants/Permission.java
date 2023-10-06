@@ -1,4 +1,4 @@
-package com.bestteam.urlshorter.models;
+package com.bestteam.urlshorter.constants;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

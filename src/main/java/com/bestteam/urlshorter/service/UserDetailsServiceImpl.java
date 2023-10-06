@@ -1,10 +1,8 @@
-package com.bestteam.urlshorter.service.Impl;
+package com.bestteam.urlshorter.service;
 
 
-import com.bestteam.urlshorter.auth.AuthenticationType;
-import com.bestteam.urlshorter.auth.token.ConfirmationToken;
-import com.bestteam.urlshorter.auth.token.ConfirmationTokenService;
-import com.bestteam.urlshorter.models.Role;
+import com.bestteam.urlshorter.constants.AuthenticationType;
+import com.bestteam.urlshorter.constants.Role;
 import com.bestteam.urlshorter.models.UserUrl;
 import com.bestteam.urlshorter.repository.UserUrlRepository;
 import lombok.RequiredArgsConstructor;

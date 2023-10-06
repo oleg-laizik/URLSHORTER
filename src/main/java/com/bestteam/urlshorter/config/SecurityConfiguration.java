@@ -4,7 +4,7 @@ package com.bestteam.urlshorter.config;
 import com.bestteam.urlshorter.auth.CustomAuthenticationProvider;
 import com.bestteam.urlshorter.auth.JwtAuthenticationFilter;
 import com.bestteam.urlshorter.repository.UserUrlRepository;
-import com.bestteam.urlshorter.service.Impl.UserDetailsServiceImpl;
+import com.bestteam.urlshorter.service.UserDetailsServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

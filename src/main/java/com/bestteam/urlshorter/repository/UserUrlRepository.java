@@ -1,7 +1,7 @@
 package com.bestteam.urlshorter.repository;
 
 
-import com.bestteam.urlshorter.auth.AuthenticationType;
+import com.bestteam.urlshorter.constants.AuthenticationType;
 import com.bestteam.urlshorter.models.UserUrl;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
